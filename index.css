@@ -16,21 +16,49 @@ body {
 
               width: 100vw;
               height: 100vh;
-              background-color: #d58eed;
+              /* background-color: #d58eed; */
+              background-color: #ecd2f5;
               display: grid;
               place-items: center;
 
 
 
               h1 {
-                            color: rgb(20, 15, 64);
-
-              }
-
+                            color: rgb(249, 249, 249);
+                            background-color: rgb(51, 48, 48);
+                            height: 3.5rem;
+                            padding: 1rem 0rem 1.4rem 1rem;
+                           
+}
+h3{
+        display: inline;
+       font-size: 1.4rem;
+       color: rgb(66, 64, 64);
+        padding: 1.8rem 0rem 1.4rem 0rem;  
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.fa-circle-info{
+        padding: 1.8rem 0rem 1.4rem 1rem; 
+        font-size: 1.4rem;     
+}
+.flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.timer {
+        width: 5rem;
+        height: 2rem;
+        margin-right: 4rem;
+        font-size: 1.7rem;
+        background-color: #e0e0e0;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
               .container {
-                            width: 30rem;
-                            /* height: 30rem; */
-                            background-color: white;
+                            width: 45rem;
+                            height: 48rem;
+                            background-color: rgb(254, 252, 252);
                             border: 20x solid blue;
                             border-radius: 1rem;
                             -webkit-border-radius: 1rem;
@@ -38,53 +66,159 @@ body {
                             -ms-border-radius: 1rem;
                             -o-border-radius: 1rem;
                  h2{
-                            margin: 1rem 0rem 0rem 1rem;
+                            margin: 1rem 0rem 1.2rem 1rem;
+                            font-size:2rem ;
+                            font-family: "Kanit", sans-serif;
+                            font-weight: bold;
+                            font-style: normal;
+                            color: rgb(47, 44, 44);
+
                  }
 
                             .allOption {
                                          width: 100%;
                                           height: 23rem;
-                                          display: grid;
-                                          place-items: center;
+                                        
 
                                           .innerOption {
 
-                                    
-                                  width: 30rem;
+                                                display: grid;
+                                                place-items: center;
+                                  width: 45rem;
+                                  /* background-color: blue; */
 
                                                         .div1 {
 
-                                                                      margin-left: 1rem;
-                                                                      height: 3rem;
+                                                                      /* margin-left: 1rem; */
+                                                                      width: 43rem;
+                                                                      height: 4rem;
                                                                       font-size: 1.5rem;
+                                                                    
+                                                                      background-color: rgba(151, 196, 214, 0.2);
+                                                               margin-bottom: 0.9rem;
+                                                               margin-top: 0.41rem;
+                                                               radio{
 
+                                                                width: 2rem;
+                                                                color: black;
+                                                        }
+                                                              
+                                                           }
+                                                          
 
                                                         }
                                           }
                             }
 
               }
+.label{
+        display: inline-block;
+
+        width: 40rem;
+         height: 3.7rem;
+       
+
+}
+.label:hover{
+        background-color: #4A249D;
+        color: white;
+
+   }
+
+
+.mainbtn{
+        width: 45rem;
+        height: 10rem;
+        display: grid;
+        place-items: center;
+    
 }
 
+   .btn{
+
+        width: 42rem;
+        height: 10rem;
+        
+       
+    
+        
+   }           
+
 #next{
-              width: 5rem;
-              height: 2rem;
-              color: rgb(6, 25, 42);
-              background-color: #d58eed;
-              border: 2px solid blueviolet;
-              border-radius: 1rem;
-              -webkit-border-radius: 1rem;
-              -moz-border-radius: 1rem;
-              -ms-border-radius: 1rem;
-              -o-border-radius: 1rem;
+        width: 20rem;
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+            color: white;
+              background-color: #4A249D;
+            
+            
               font-weight: bold;
               font-size: 1.2rem;
 }
 #next:hover{
-        background-color: #0e0e0e;
+        background-color:  blueviolet;
         color: aliceblue;
         
      
+
+
+}
+
+
+#home{
+        width: 20rem;
+        height: 2.5rem;
+      color: white;
+        background-color: #1b59f4;
+      
+     
+        font-weight: bold;
+        font-size: 1.2rem;
+}
+#home:hover{
+  background-color:  #7a9bef;
+  color: aliceblue;
+  
+
+
+
+}
+
+
+#start{
+        width: 20rem;
+        height: 2.5rem;
+        margin-left: 1rem;
+      color: white;
+        background-color: rgb(255, 157, 0);
+      
+        font-weight: bold;
+        font-size: 1.2rem;
+}
+#start:hover{
+  background-color:  rgb(250, 196, 111);
+  color: aliceblue;
+  
+
+
+
+}
+#clear{
+        width: 20rem;
+        height: 2.5rem;
+      color: white;
+        background-color: orangered;
+      
+      
+        font-weight: bold;
+        font-size: 1.2rem;
+}
+#clear:hover{
+  background-color:  rgb(254, 149, 111);
+  color: aliceblue;
+  
+
 
 
 }
